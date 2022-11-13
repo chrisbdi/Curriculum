@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Imports icons --> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+    <!-- MENU -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Alex Wolfgang</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a class="but1" href="#home" onclick="select()">HOME</a></li>
+                    <li><a class="but2" href="#aboutme" onclick="select()">ABOUT ME</a></li>
+                    <li><a class="but3" href="#skills" onclick="select()">SKILLS</a></li>
+                    <li><a class="but4" href="#curriculum" onclick="select()">CURRICULUM</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="images/man-portrait.jpg" alt="">
+            </div>
+            <h1>ALEX WOLFGANG</h1>
+            <h2>Informatics Engineer & Web Developer</h2>
+            <div class="social-networks">
+                <li><a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li> <!-- facebook icon -->
+                <li><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a></li> <!-- twitter icon -->
+                <li><a href="#" class="skype"><i class="fa-brands fa-skype"></i></a></li> <!-- skype icon -->
+                <li><a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li> <!-- linkedin icon -->
+                <li><a href="#" class="rss"><i class="fa-solid fa-rss"></i></a></li> <!-- rss icon -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Hello, I'm Alex Wolgang. I am passionate Web Developer with more than 10 years of experience. I am skilled in Photoshop and HTML/CSS. The thing that I most love is enjoying my free time in the nature with my family.</p>
+            <div class="row">
+                <!-- PERSONAL DATA -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Date of birth</strong>
+                            12-03-1982
+                        </li>
+                        <li>
+                            <strong>Telephone</strong>
+                            +0718-111-0011
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            alexwolfg@gmail.com
+                        </li>
+                        <li>
+                            <strong>Adress</strong>
+                            140, City Center, New York, U.S.A
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Interests -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-interests">
+                        <div class="interests1">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interests2">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interests3">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interests4">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>CODING</span>
+                        </div>
+                        <div class="interests5">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interests6">
+                            <i class="fa-solid fa-book"></i>
+                            <span>READING</span>
+                        </div>
+                        <div class="interests7">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+                        </div>
+                        <div class="interests8">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- TECHNICAL SKILLS -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>88%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROFESSIONAL SKILLS -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
+                                <span>79%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="content">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Studies</h3>
+                    <div class="item left">
+                        <h4>Masters in Information Technology</h4>
+                        <span class="place">International University</span>
+                        <span class="date">2001 - 2007</span>
+                        <p></p>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="item left">
+                        <h4>Bachelor of Computer Science</h4>
+                        <span class="place">Regional College</span>
+                        <span class="date">1998 - 2000</span>
+                        <p></p>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="item left">
+                        <h4>Science and Mathematics</h4>
+                        <span class="place">Mt. High Scool</span>
+                        <span class="date">1986 - 1998</span>
+                        <p></p>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Work Experience</h3>
+                    <div class="item right">
+                        <h4>Senior Graphic Designer</h4>
+                        <span class="place">Buildomo</span>
+                        <span class="date">2020 - Present</span>
+                        <p></p>
+                        <div class="connectorright">
+                            <div class="circleright"></div>
+                        </div>
+                    </div>
+                    <div class="item right">
+                        <h4>Former Graphic Designer</h4>
+                        <span class="place">IdeaMe</span>
+                        <span class="date">2019 - 2020</span>
+                        <p></p>
+                        <div class="connectorright">
+                            <div class="circleright"></div>
+                        </div>
+                    </div>
+                    <div class="item right">
+                        <h4>Head of design</h4>
+                        <span class="place">Titan Company</span>
+                        <span class="date">2005 - 2008</span>
+                        <p></p>
+                        <div class="connectorright">
+                            <div class="circleright"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="social-networks-bottom">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
