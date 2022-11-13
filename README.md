@@ -8,3 +8,5 @@ The CV is structures into 5 parts. The first one is the “HOME” part where th
 
 The design of the curriculum is simple and colorful in order to make the user who reads it to find it simple to read, fast and entertaining. The colors used in it is black/grey/violet and the rainbow ones to show the different interests and the navigation bar in order to make it more stylish, cozy and entertaining while reading it. The backgrounds are grey/white in order to see the information better and to create a high contrast between the background and text. In that way the user will pay more attention to it. The font used it Righteous in the titles in order to make them different from the rest of the text, bold and big to attract the user attention. There is a lot of graphic stuff in order to make the user understand faster the information, for example, the skill bar, or the interests or even the curriculum table where the information can be really easily interpreted.
 
++The CV page is responsive and has animations, for example, navigation bar, interests, skills(starts from 0 to x%) and social networks from home section.
+
